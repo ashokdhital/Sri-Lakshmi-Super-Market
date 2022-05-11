@@ -1,6 +1,32 @@
 <nav class="navbar navbar-light bg-light justify-content-between" style="background-color: #e3f2fd;" >
-  <a class="navbar-brand">Grocery Store</a>
-  <% if (loggedIn) { %>
-    <a href="/logout" class="btn btn-outline-danger my-2 my-sm-0" type="submit">Log Out</a>
-  <% } %>
+  <a class="navbar-brand"><img src="/img/logo.jpeg" alt="Logo" height="70" class="log"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <% if (!loggedIn) { %>
+      <li class="nav-item">
+        <a class="nav-link" href="/login">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/register">Register</a>
+      </li>
+      <% } %>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      <% if (loggedIn) { %>
+        <a href="/logout" class="btn btn-outline-danger my-2 my-sm-0" type="submit">Log Out</a>
+      <% } %>
+    </span>
+  </div>  
 </nav>
+<div class="container">
+  
+</div>

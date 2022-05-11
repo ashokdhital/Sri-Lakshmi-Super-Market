@@ -1,0 +1,529 @@
+/* @ import is used for the font family*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+/* font size and weight is used to change the size and weight of */
+.ind {
+    background-image: url("images/683.jpg");
+    background-size: cover;                
+}
+ .jobleg{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+.indh1{
+    
+    text-shadow: 5px 2px 3px rgb(86, 90, 81);
+    margin-left: 550px;
+    color: white;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .marquee {
+    width: 100%;
+line-height: 50px;
+	background-color: rgb(233, 240, 184);
+	color: Black;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.marquee p {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 10s linear infinite;
+}
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+.jobbutton{
+    margin-right: 60px;
+    padding: 15px;
+    float: right;
+}
+
+.jobaside{
+    border-style: solid;
+    border-color: rgb(70, 68, 184);
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+    text-align: center;
+}
+.masthead {
+    padding: 6em 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: solid 1em #FFCF33;
+}
+.masthead-intro {
+    /* Layout Declarations */
+    margin-bottom: 0.1em;
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+
+.masthead-heading {
+    /* Layout Declarations */
+    color: #F1C863;
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.introduction-section {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.content-footer>p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+    text-align: center;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: solid 1em #FFCF33;
+}
+
+.masthead-intro {
+    margin-bottom: 1.2em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+
+.masthead-heading {
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+.fiel {
+    box-shadow: 50+ px 5x 2px black;
+}
+
+.abouth {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.shadow {
+    box-shadow: 5px 5x 20px rgb(230, 76, 76);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    text-align: center;
+}
+
+.ui-autocomplete-input {
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 500px;
+    height: 100px;
+
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+    border-color: -moz-use-text-color #FFFFFF #FFFFFF -moz-use-text-color;
+    border-image: none;
+    border-radius: 6px 6px 6px 6px;
+    border-style: none solid solid none;
+    border-width: medium 1px 1px medium;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+    color: #555555;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+    padding: 5px 8px;
+    transition: background-color 0.2s ease 0s;
+}
+
+
+.ui-autocomplete-input:focus {
+    background: none repeat scroll 0 0 #FFFFFF;
+    outline-width: 0;
+}
+
+/* Flex is used for making the content box flexible */
+.dl {
+    display: flex;
+    flex-flow: row wrap;
+    border: solid #333;
+    border-width: 1px 1px 0 0;
+    background-color: rgb(175, 175, 175);
+}
+
+.dt {
+    flex-basis: 20%;
+    padding: 2px 4px;
+    background: #333;
+    text-align: right;
+    color: #fff;
+}
+
+.dd {
+    flex-basis: 70%;
+    flex-grow: 1;
+    margin: 0;
+    padding: 2px 4px;
+    border-bottom: 1px solid #333;
+}
+.abouth:hover {
+    transition: 1s;
+    background-color: rgb(58, 75, 82);
+}
+
+.aboutd:hover {
+    transition: 1s;
+    background-color: rgb(136, 164, 214);
+}
+.table,
+.thead,
+.aboutd {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+
+    }
+    .aboutimg{
+            
+        margin-left: 380px;
+    }
+    .dd:hover{
+        transition: 1s;
+        background-color: white;
+    }
+.button{
+    margin-right: 610px;
+    padding: 25px;
+    float: right;
+}
+.indh3{
+    margin-left: 530px;
+    color: white;
+}
+.indleg{
+    font-size: larger;
+    margin-left: 330px;
+}
+.indbq{
+    margin-left: 149px;
+    font-weight: 700;
+    font-size: larger;
+
+}
+.field{
+    margin-left: 320px;
+    margin-right: 280px;
+    background-color: rgb(231, 231, 206);
+    opacity: 70%;
+}   
+.section{
+    font-size: 200%;
+    margin-left: 250px;
+    color: white;
+}
+
+.section1{
+    font-size: 200%;
+    margin-left: 250px;
+    color: black;
+}
+.footer{margin-top: 210px;
+       margin-right: -10px;
+       margin-left: -10px;
+       padding: 2%;}
+body{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* hover is used in input to highlight and make animations whenever the pointer is pointed */
+input:hover{
+    background-color: rgb(155, 160, 163);
+    /* width: 15%;
+    height: 20%; */
+    transition: width 3s; 
+    transition: height 3s;
+}   
+a:hover{
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    background-color: rgb(130, 131, 123);
+    background-color: #3e8e41
+}    
+/* .link{
+    color: rgb(8, 9, 10);
+    text-decoration: none;
+    background-color: rgb(173, 175, 162);
+    padding: 1%;
+} */
+/* float is used to move the content right  */
+/* padding is used to increase the boundary  */
+/* shadow is used for making font shadow  */
+.button {
+
+    float: right;
+    padding: 20px; 
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;     
+} 
+/* margin is used to create space around elements */
+/* font style is used to have diffrent combinations and styles of fonts */
+aside {
+    margin-top: 260px;
+    margin-right: -180px;
+    font-style: italic;
+    background-color: lightgray;
+    
+  }
+.logo{
+    float: right;
+    margin-top: -40px;
+}
+footer{
+    background-color: rgb(200, 204, 178);
+    padding: 2%;    
+}
+/* border radius is used to create the outer edge of element */
+/* box sizing is used to include padding and border in element */
+/* display is used to display the behaviour of element */
+input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(5, 5, 5);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 30%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;     
+} 
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+
+    /* Overflow is used to look the content good as it fit the content which is too big */
+  }
+  .header {
+    overflow: hidden;
+   
+   
+    padding: 20px 10px;
+ 
+  }
+  
+  /* Style the header links */
+/* Opacity is used to make the element transparent */
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    background-color: rgb(196, 195, 173);
+    opacity: 80%;
+  }
+  
+  /* Style the logo link */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  .log{
+      margin-top: -14px;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+
+
+
+.footer {
+  background-color: #243546;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer .foot-l p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer p.foot-l {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+/* Transition is used to slow down the animation  */
+.footer p.foot-l a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer .foot-l a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer .foot-l .link-1:before {
+  content: none;
+}
+
+.footer .foot-r {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer .foot-r a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+/* Transfoma is used to apply tranformation in the element */
+.footer .foot-r a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer p.foot-l a:hover{text-decoration:underline;}
+  
+
+  aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+.sec {
+    padding: 1em;
+    color: white;
+    background-color: #000080;
+    clear: left;
+    text-align: center;
+}
+.enhancepara{
+    font-size: larger;
+}
+.enhanceli{
+    font-size: larger;
+}
+.enhancenav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+.enhancenav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.enhancenav ul a {
+    text-decoration: none;
+}
+

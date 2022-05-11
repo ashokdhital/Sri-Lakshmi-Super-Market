@@ -9,15 +9,18 @@ app.locals.authmessage = "";
 app.set('view engine', 'ejs');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(express.static('static'))
 
 // use res.render to load up an ejs view file
 
 // index page
 app.get('/', function(req, res) {
-  if(!req.app.locals.loggedIn)
-    res.redirect('/login');
-  else
     res.render('pages/index');
+});
+
+// about page
+app.get('/about', function(req, res) {
+  res.render('pages/about');
 });
 
 // login page
