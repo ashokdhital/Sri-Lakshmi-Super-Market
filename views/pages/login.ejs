@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../partials/head'); %>
+</head>
+<body class="container">
+
+<header>
+  <%- include('../partials/header'); %>
+</header>
+
+<main>
+  <div class="jumbotron">
+    <h1>Grocery Store - Login</h1>
+    <p>Login to the Grocery Store</p>
+  </div>
+</main>
+<section>
+  <form method="post" action="/login">
+    <% if (authmessage != "") { %>
+      <p class="lead text-center text-danger"><%=authmessage%></p>
+    <% } %>
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+      <input type="text" id="form_email" class="form-control" name="username" maxlength="20" required/>
+      <label class="form-label" for="form_email">Username</label>
+    </div>
+  
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+      <input type="password" id="form_password" class="form-control" name="password" required/>
+      <label class="form-label" for="form_password">Password</label>
+    </div>
+  
+    
+    </div>
+  
+    <!-- Submit button -->
+    <input type="submit" value="Sign in" class="btn btn-primary btn-block mb-4">
+  
+    <!-- Register buttons -->
+    <div class="text-center">
+      <p>Not a member? <a href="/register">Register</a></p>
+      
+    </div>
+  </form>
+</section>
+<footer>
+  <%- include('../partials/footer'); %>
+</footer>
+
+</body>
+</html>
